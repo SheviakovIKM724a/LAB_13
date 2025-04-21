@@ -15,7 +15,7 @@ int main() {
     system("chcp 1251 > nul"); //підключення української мови
 
     int n;
-    cout << "Введіть номер члена ряду (n): "
+    cout << "Введіть номер члена ряду (n): ";
     cin >> n;
 
     cout << "Член ряду a[" << n << "] = " << recursiveSeries(n) << endl;
